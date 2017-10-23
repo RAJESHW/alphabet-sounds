@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 80px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+.mainContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.letterSection h1 {
+  font-size: 10vw;
+}
+.imageSection {
+  width: 25rem;
+  height: 25rem;
+}
+.imageSection img {
+  width: 100%;
+  height: auto;
+}
+.buttonSection {
+  margin-top: 50px;
+}
+.nextButton, .previousButton, .firstButton, .lastButton {
+  width: 100px;
+  margin-right: 10px;
+  background: none;
+  border: 1px solid grey;
+  height: 25px;
+}
